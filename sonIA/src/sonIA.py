@@ -4,7 +4,7 @@ class Bot(object):
         pass
 
     def act(self, xdif, ydif, vel):
-        if (ydif < 10 or xdif < 10):
+        if (ydif < 5):
             return 1
         if xdif < 15 and ydif > 10:
             return 0
